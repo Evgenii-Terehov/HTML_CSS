@@ -1,7 +1,47 @@
+* {
+    color: #1a0499;    
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 650px;
+    padding: 0 160px;
+    margin: auto;
+}
+
 h1 {
     color: #ff9300;
+    background-color: #220e91f3;
+    height: 40px;
+    width: 240px;
+    padding-left: 25px;
+    padding: 30px auto;
+}
+
+h2 {
+    margin: 8px auto;
+    padding-left: 65px;
 }
 
 body {
     color: #1e0980;
 }
+
+strong {
+    padding: 1px 2.5px;
+    border: 1px solid #083b04;
+    
+}
+
+img {
+    padding: 8px auto;
+    
+}
+
+.actors {
+    color: #083b04;
+    margin: 8px;
+    padding: 8px;
+}
+/* h1, body, .actors - это лесекторы, только actors - это селектор по классу. */
